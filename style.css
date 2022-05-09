@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/**Header**/
+
+.navegador{
+    display: flex;
+    padding: 40px 70px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007dc6;
+}
+
+.navegador .item{
+    color: white;
+    font-weight: 600;
+}
+
+/**Logo del navegador**/
+.navegador .logo__nav{
+    width: 190px;
+    height: auto;
+}
+
+/**Aqui van los hipervinculos de historia, nosotros y sucursales**/
+
+.navegador .menu{
+    display: flex;
+}
+
+.navegador .menu .item{
+    margin: 0px 20px;
+}
+
+/**Fin**/
+
+.navegador .item a{
+    color: white;
+}
+
+.navegador .item a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/**Boton**/
+
+.navegador .paginaprincipal a{
+    padding: 8px 15px;
+    color: #007dc6;
+    background-color: #ffc220;
+    border-radius: 40px;
+}
+
+.navegador .paginaprincipal a:hover{
+    box-shadow: 0px 15px 18px 3px rgba(0,0,0,0.59);
+    background-color: white;
+    color: #007dc6;
+    text-decoration: none;
+}
+
+/**Sección 1**/
+
+.seccion__1{
+    display: flex;
+    padding: 90px 70px;
+    justify-content: space-between;
+}
+
+.seccion__1 .marca{
+    width: 60%;
+}
+
+.seccion__1 .marca h1{
+    color: #007dc6;
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.seccion__1 .logo{
+    width: 400px;
+    align-self: center;
+}
+
+/**Sección 2**/
+
+.seccion__2{
+    background-color: #007dc6;
+    padding: 90px 70px;
+    justify-content: space-between;
+}
+
+.seccion__2 .logotipo h1{
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.seccion__2 .logotipo p{
+    color: white;
+}
+
+/**Aqui empiezan los logotipos**/
+
+.seccion__2 .tipos__logos{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.seccion__2 .item{
+    padding: 25px 20px 0px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    background-image: url('../images/fondoclaro.jpg');
+}
+
+.seccion__2 .tipos__logos .logo__negativo{
+    background-image: url('../images/fondoscuro.jpg');
+}
+
+/**Descargas svg y png**/
+
+.seccion__2 .tipos__logos .descargas{
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.seccion__2 .tipos__logos .descargas a{
+    margin-left: 10px;
+    margin-bottom: 2px;
+    color: #007dc6;
+}
+
+.seccion__2 .tipos__logos .descargas a:hover{
+    text-decoration: underline;
+}
+
+.seccion__2 .a {
+    color: white;
+}
+
+/**Footer**/
+
+.pie__de__pagina{
+    padding: 90px 70px;
+    background-color: #004c91;
+}
+
+.pie__de__pagina .redes ul{
+    display: flex;
+}
+
+.pie__de__pagina .redes ul li a i{
+    margin: 15px 20px 0px 0px;
+    font-size: 20px;
+}
+
+.pie__de__pagina .footer__arriba .redes a:hover{
+    text-decoration: none;
+}
+
+.pie__de__pagina .footer__arriba{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.pie__de__pagina .footer__arriba h2{
+    color: #ffc220;
+}
+
+.pie__de__pagina .footer__arriba p{
+    color: #ffc220;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pie__de__pagina .footer__arriba a{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.pie__de__pagina .footer__arriba a:hover{
+    text-decoration: underline;
+}
+
+.pie__de__pagina .footer__arriba ul{
+    list-style: none;
+}
+
+/**Eslogan y boton**/
+
+.pie__de__pagina .footer__abajo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.pie__de__pagina .logo__footer{
+    width: 190px;
+    height: auto;
+}
+
+.pie__de__pagina .footer__abajo .paginaprincipal a{
+    padding: 8px 15px;
+    color: #004c91;
+    background-color: #ffc220;
+    border-radius: 40px;
+    font-weight: 600;
+}
+
+.pie__de__pagina .footer__abajo .paginaprincipal a:hover{
+    box-shadow: 0px 15px 18px 3px rgba(0,0,0,0.59);
+    background-color: white;
+    color: #004c91;
+    text-decoration: none;
+}
